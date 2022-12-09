@@ -1,3 +1,10 @@
-# simple-vitest-dom-test
+# Vitest Bug reproduction
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitest-dev-vitest-6vnw6c)
+The first is using a plain css properties, the second one is a properties using a css variable.
+
+While the first test works fine the second doesn't.
+
+## Start test command
+
+Simply run `npm test`, other commands are available in `package.json`
+
