@@ -12,6 +12,7 @@
   "devDependencies": {
     "@vitest/ui": "latest",
     "happy-dom": "^8.1.0",
+    "jsdom": "^20.0.3",
     "vite": "latest",
     "vitest": "latest"
   },

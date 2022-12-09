@@ -13,15 +13,4 @@ describe('Suite name', () => {
     const backgroundColor = getComputedStyle(div).backgroundColor;
     expect(backgroundColor).toBe('grey');
   });
-
-  it.skip('Should load css with vars', () => {
-    const div = document.createElement('div');
-    div.innerText = 'bar';
-    document.body.appendChild(div);
-
-    console.log(document.body.outerHTML);
-
-    const color = getComputedStyle(div).color;
-    expect(color).toBe('red');
-  });
 });
